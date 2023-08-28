@@ -3,5 +3,5 @@ from django.urls import path
 from django.conf import settings
 
 urlpatterns = [
-    path(settings.ADMIN_URL, "admin/", admin.site.urls),
+    path(settings.ADMIN_URL, admin.site.urls),
 ]
