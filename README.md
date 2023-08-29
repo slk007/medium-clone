@@ -6,4 +6,5 @@ Backend Clone of Medium, Using Django Rest Framework
 * Shell Scripts
 * DB Postgres Backup
 * Makefile
+* Custom User Model
 * MailHog
