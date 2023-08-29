@@ -74,7 +74,7 @@ WSGI_APPLICATION = "authors_api.wsgi.application"
 #     }
 # }
 
-DATABASES = {"default": {env.db("DATABASE_URL")}}
+DATABASES = {"default": env.db("DATABASE_URL")}
 
 PASSWORD_HASHERS = {
     "django.contrib.auth.hashers.PBKDF2PasswordHasher",
