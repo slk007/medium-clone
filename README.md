@@ -8,4 +8,5 @@ Backend Clone of Medium, Using Django Rest Framework
 * Makefile
 * Custom User Model
 * NGNIX Server
+* Celery, Redis, Flower
 * MailHog
